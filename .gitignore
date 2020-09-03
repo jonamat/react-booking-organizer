@@ -1,0 +1,14 @@
+node_modules
+.vscode
+/yarn.lock
+
+/build
+/demo_build
+/build_stats/log.json
+
+# Vectors and psd
+/project_res
+
+# Not visible for security reasons
+/functions
+prod.env

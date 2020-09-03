@@ -1,0 +1,12 @@
+node_modules
+
+/build
+/demo_build
+/coverage
+/build_stats
+
+/functions
+/project_res
+
+/webpack
+/scripts
