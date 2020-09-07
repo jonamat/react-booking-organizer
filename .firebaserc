@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "production": "gestionale-noir",
+    "demo": "booking-management-pwa"
+  },
+  "targets": {
+    "booking-management-pwa": {
+      "hosting": {
+        "demo": [
+          "booking-management-pwa"
+        ]
+      }
+    },
+     "gestionale-noir": {
+      "hosting": {
+        "production": [
+          "gestionale-noir"
+        ]
+      }
+    }
+  }
+}
