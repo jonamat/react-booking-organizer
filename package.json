@@ -1,0 +1,39 @@
+{
+    "name": "react-booking-organizer",
+    "description": "Booking management PWA for the front-office",
+    "version": "1.0.0",
+    "author": {
+        "name": "Jonathan Mataloni",
+        "email": "jo.mataloni@gmail.com",
+        "url": "https://github.com/jonamat"
+    },
+    "main": "src/index.tsx",
+    "repository": "https://github.com/jonamat/react-booking-organizer",
+    "homepage": "https://react-booking-organizer.tk",
+    "scripts": {
+        "[TEST] unit": "jest src/.*.unit.test.tsx?",
+        "[TEST] unit --watch": "jest src/.*.unit.test.tsx? --watch",
+        "[TEST] integration": "jest tests/.*.int.test.tsx? --silent",
+        "[TEST] integration --watch": "jest tests/.*.int.test.tsx? --watch --silent",
+        "[TEST] coverage": "jest .*.test.tsx? --coverage",
+        "[SERVE] devserver": "webpack serve --config ./webpack/webpack.dev.js --open",
+        "[SERVE] emulators": "firebase emulators:start",
+        "[LINT] run": "eslint --ext .ts,.tsx ./",
+        "[LINT] fix": "eslint --fix --ext .ts,.tsx ./",
+        "[BUILD] production": "webpack --config ./webpack/webpack.prod.js",
+        "[BUILD] demo": "webpack --config ./webpack/webpack.demo.js",
+        "[DEPLOY] [DEMO] hosting": "firebase deploy -P demo --only hosting:demo",
+        "[DEPLOY] [DEMO] security rules": "firebase deploy -P demo --only firestore:rules",
+        "[DEPLOY] [PROD] hosting": "firebase deploy -P production --only hosting:production",
+        "[DEPLOY] [PROD] functions": "firebase deploy -P production --only functions",
+        "[DEPLOY] [PROD] security rules": "firebase deploy -P production --only firestore:rules"
+    },
+    "keywords": [
+        "react",
+        "real-world-app",
+        "booking"
+    ],
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {}
+}
