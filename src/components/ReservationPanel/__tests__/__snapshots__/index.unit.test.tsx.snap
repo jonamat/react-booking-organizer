@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReservationPanel matches snapshot 1`] = `
+<div
+  className="jss8 jss1 jss7 jss12 jss9"
+  onClick={[Function]}
+>
+  <div
+    className="jss2"
+  >
+    <h6
+      className="jss36 jss3 jss48"
+      data-testid="date"
+    >
+      sabato 1 gennaio 2000, 10:00
+    </h6>
+    <p
+      className="jss36 jss4 jss37"
+      data-testid="name"
+    >
+      Customer name Surname
+    </p>
+    <span
+      className="jss36 jss6 jss39"
+      data-testid="service"
+    >
+      fake service 1
+    </span>
+    <p
+      className="jss36 jss37"
+      data-testid="notes"
+    >
+      something
+    </p>
+  </div>
+</div>
+`;
