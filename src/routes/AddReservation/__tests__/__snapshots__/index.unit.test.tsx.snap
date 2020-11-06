@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddReservation component matches snapshot 1`] = `
+<div
+  className="jss1"
+  data-testid="add-reservation"
+>
+  <h6
+    className="jss8 jss18"
+  >
+    Aggiungi appuntamento
+  </h6>
+  <hr
+    className="jss38 jss2"
+  />
+  <form
+    className="jss3"
+    data-testid="form"
+    onSubmit={[Function]}
+  >
+    <div
+      aria-expanded={false}
+      aria-owns={null}
+      className="jss45 jss5 jss51 jss50"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      onMouseDown={[Function]}
+      role="combobox"
+    >
+      <div
+        className="jss70 jss69 jss73"
+      >
+        <div
+          className="jss89 jss74 jss52 jss99 jss90 jss94 jss79"
+          onClick={[Function]}
+        >
+          <input
+            aria-activedescendant={null}
+            aria-autocomplete="list"
+            aria-controls={null}
+            aria-invalid={false}
+            autoCapitalize="none"
+            autoComplete="off"
+            autoFocus={false}
+            className="jss100 jss84 jss53 jss54 jss105 jss88"
+            data-testid="customer"
+            disabled={false}
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            placeholder="Cliente"
+            required={false}
+            spellCheck="false"
+            type="text"
+            value=""
+          />
+          <div
+            className="jss55"
+          >
+            <button
+              aria-label="Clear"
+              className="jss116 jss107 jss56 jss4"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={-1}
+              title="Clear"
+              type="button"
+            >
+              <span
+                className="jss115"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="jss119 jss126"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                  />
+                </svg>
+              </span>
+            </button>
+            <button
+              aria-label="Open"
+              className="jss116 jss107 jss58 jss4"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={-1}
+              title="Open"
+              type="button"
+            >
+              <span
+                className="jss115"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="jss119"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+          <fieldset
+            aria-hidden={true}
+            className="jss128 jss83"
+            style={
+              Object {
+                "paddingLeft": 8,
+              }
+            }
+          >
+            <legend
+              className="jss129"
+              style={
+                Object {
+                  "width": 0.01,
+                }
+              }
+            >
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&#8203;",
+                  }
+                }
+              />
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      className="jss70 jss69 jss5"
+    >
+      <label
+        className="jss144 jss132 jss138 jss141 jss140 jss143 jss149"
+        data-shrink={true}
+      >
+        Data *
+      </label>
+      <div
+        className="jss89 jss74 jss90 jss94 jss79"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="jss100 jss84 jss105 jss88"
+          data-testid="date"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value="01/01/2020 10:00"
+        />
+        <div
+          className="jss152 jss155"
+        >
+          <button
+            className="jss116 jss107"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="jss115"
+            >
+              <svg
+                aria-hidden={true}
+                className="jss119"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <fieldset
+          aria-hidden={true}
+          className="jss128 jss83"
+        >
+          <legend
+            className="jss130 jss131"
+          >
+            <span>
+              Data *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+      
+    </div>
+    <div
+      className="jss70 jss5"
+    >
+      <label
+        className="jss144 jss132 jss6 jss138 jss141 jss140 jss143 jss149 jss150 jss136"
+        data-shrink={true}
+        id="servicesIdLabel"
+      >
+        Servizio
+        <span
+          aria-hidden={true}
+          className="jss151 jss137"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="jss89 jss74 jss90"
+        onClick={[Function]}
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="servicesIdLabel mui-component-select-serviceId"
+          className="jss178 jss179 jss182 jss181 jss100 jss84"
+          id="mui-component-select-serviceId"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          fake service 1
+        </div>
+        <input
+          aria-hidden={true}
+          className="jss188"
+          data-testid="service"
+          name="serviceId"
+          onAnimationStart={[Function]}
+          onChange={[Function]}
+          required={true}
+          tabIndex={-1}
+          value="service-FAKE-ID1"
+        />
+        <svg
+          aria-hidden={true}
+          className="jss119 jss184 jss187"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+        <fieldset
+          aria-hidden={true}
+          className="jss128 jss83"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="jss129"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss70 jss5"
+    >
+      <label
+        className="jss144 jss132 jss6 jss138 jss141 jss140 jss143 jss149 jss150 jss136"
+        data-shrink={true}
+        id="employeeIdLabel"
+      >
+        Assegnato a
+        <span
+          aria-hidden={true}
+          className="jss151 jss137"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="jss89 jss74 jss90"
+        onClick={[Function]}
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="employeeIdLabel mui-component-select-employeeId"
+          className="jss178 jss179 jss182 jss181 jss100 jss84"
+          id="mui-component-select-employeeId"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Employee name 1
+        </div>
+        <input
+          aria-hidden={true}
+          className="jss188"
+          data-testid="employee"
+          name="employeeId"
+          onAnimationStart={[Function]}
+          onChange={[Function]}
+          required={true}
+          tabIndex={-1}
+          value="employee-FAKE-ID1"
+        />
+        <svg
+          aria-hidden={true}
+          className="jss119 jss184 jss187"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+        <fieldset
+          aria-hidden={true}
+          className="jss128 jss83"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="jss129"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss70 jss69 jss5"
+    >
+      <label
+        className="jss144 jss132 jss138 jss141 jss143"
+        data-shrink={false}
+      >
+        Note
+      </label>
+      <div
+        className="jss89 jss74 jss90 jss97 jss82"
+        onClick={[Function]}
+      >
+        <textarea
+          aria-invalid={false}
+          autoComplete="off"
+          autoFocus={false}
+          className="jss100 jss84 jss102 jss86"
+          data-testid="notes"
+          disabled={false}
+          name="notes"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          rows={4}
+        />
+        <fieldset
+          aria-hidden={true}
+          className="jss128 jss83"
+        >
+          <legend
+            className="jss130"
+          >
+            <span>
+              Note
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss7"
+    >
+      <button
+        className="jss116 jss193 jss201 jss202"
+        data-testid="submit-button"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="jss194"
+        >
+          Aggiungi
+        </span>
+      </button>
+      <button
+        className="jss116 jss193 jss201 jss202"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="jss194"
+        >
+          Annulla
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

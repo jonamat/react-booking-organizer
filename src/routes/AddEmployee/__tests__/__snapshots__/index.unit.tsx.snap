@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEmployee component matches snapshot 1`] = `
+<div
+  className="makeStyles-container-1"
+  data-testid="add-employee"
+>
+  <h6
+    className="MuiTypography-root-6 MuiTypography-h6-16"
+  >
+    Aggiungi dipendente
+  </h6>
+  <hr
+    className="MuiDivider-root-36 makeStyles-divider-2"
+  />
+  <form
+    className="makeStyles-form-3"
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiFormControl-root-44 MuiTextField-root-43 makeStyles-field-4"
+    >
+      <label
+        className="MuiFormLabel-root-60 MuiInputLabel-root-48 MuiInputLabel-formControl-54 MuiInputLabel-animated-57 MuiInputLabel-outlined-59 MuiFormLabel-required-66 MuiInputLabel-required-52"
+        data-shrink={false}
+      >
+        Nome
+        <span
+          aria-hidden={true}
+          className="MuiFormLabel-asterisk-67 MuiInputLabel-asterisk-53"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="MuiInputBase-root-83 MuiOutlinedInput-root-68 MuiInputBase-formControl-84"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoComplete="off"
+          autoFocus={false}
+          className="MuiInputBase-input-94 MuiOutlinedInput-input-78"
+          data-testid="name"
+          disabled={false}
+          name="name"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-101 MuiOutlinedInput-notchedOutline-77"
+        >
+          <legend
+            className="PrivateNotchedOutline-legendLabelled-103"
+          >
+            <span>
+              Nome
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="makeStyles-submitButton-5"
+    >
+      <button
+        className="MuiButtonBase-root-134 MuiButton-root-105 MuiButton-contained-113 MuiButton-containedPrimary-114"
+        data-testid="submit-button"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="MuiButton-label-106"
+        >
+          Aggiungi
+        </span>
+      </button>
+      <button
+        className="MuiButtonBase-root-134 MuiButton-root-105 MuiButton-contained-113 MuiButton-containedPrimary-114"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label-106"
+        >
+          Annulla
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;
