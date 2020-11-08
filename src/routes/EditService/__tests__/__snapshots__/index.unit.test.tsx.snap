@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditService component matches snapshot 1`] = `
+<div
+  className="jss1"
+  data-testid="edit-service"
+>
+  <h6
+    className="jss7 jss17"
+  >
+    Aggiungi servizio
+  </h6>
+  <hr
+    className="jss37 jss2"
+  />
+  <form
+    className="jss3"
+    data-testid="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="jss45 jss44 jss4"
+    >
+      <label
+        className="jss61 jss49 jss55 jss58 jss57 jss60 jss64 jss51 jss66 jss67 jss53"
+        data-shrink={true}
+      >
+        ID
+        <span
+          aria-hidden={true}
+          className="jss68 jss54"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="jss84 jss69 jss87 jss72 jss85"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoComplete="off"
+          autoFocus={false}
+          className="jss95 jss79 jss87 jss72"
+          defaultValue="service-FAKE-ID1"
+          disabled={true}
+          name="id"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="jss102 jss78"
+        >
+          <legend
+            className="jss104 jss105"
+          >
+            <span>
+              ID
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss45 jss44 jss4"
+    >
+      <label
+        className="jss61 jss49 jss55 jss58 jss57 jss60 jss66 jss67 jss53"
+        data-shrink={true}
+      >
+        Nome
+        <span
+          aria-hidden={true}
+          className="jss68 jss54"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="jss84 jss69 jss85"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoComplete="off"
+          autoFocus={false}
+          className="jss95 jss79"
+          data-testid="name"
+          defaultValue="fake service 1"
+          disabled={false}
+          name="name"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="jss102 jss78"
+        >
+          <legend
+            className="jss104 jss105"
+          >
+            <span>
+              Nome
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss45 jss4"
+    >
+      <label
+        className="jss61 jss49 jss5 jss55 jss58 jss57 jss60 jss66 jss67 jss53"
+        data-shrink={true}
+        id="averageDurationLabel"
+      >
+        Durata media del servizio
+        <span
+          aria-hidden={true}
+          className="jss68 jss54"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="jss84 jss69 jss85"
+        onClick={[Function]}
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="averageDurationLabel mui-component-select-averageDuration"
+          className="jss106 jss107 jss110 jss109 jss95 jss79"
+          id="mui-component-select-averageDuration"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          30 minuti
+        </div>
+        <input
+          aria-hidden={true}
+          className="jss116"
+          data-testid="averageDuration"
+          name="averageDuration"
+          onAnimationStart={[Function]}
+          onChange={[Function]}
+          required={true}
+          tabIndex={-1}
+          value={30}
+        />
+        <svg
+          aria-hidden={true}
+          className="jss117 jss112 jss115"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+        <fieldset
+          aria-hidden={true}
+          className="jss102 jss78"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="jss103"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss6"
+    >
+      <button
+        className="jss159 jss130 jss138 jss139"
+        data-testid="submit-button"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="jss131"
+        >
+          Applica modifiche
+        </span>
+      </button>
+      <button
+        className="jss159 jss130 jss138 jss139"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="jss131"
+        >
+          Annulla
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

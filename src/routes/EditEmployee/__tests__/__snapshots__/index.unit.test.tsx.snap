@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditEmployee component matches snapshot 1`] = `
+<div
+  className="jss1"
+  data-testid="edit-employee"
+>
+  <h6
+    className="jss6 jss16"
+  >
+    Modifica dipendente
+  </h6>
+  <hr
+    className="jss36 jss2"
+  />
+  <form
+    className="jss3"
+    onSubmit={[Function]}
+  >
+    <div
+      className="jss44 jss43 jss4"
+    >
+      <label
+        className="jss60 jss48 jss54 jss57 jss56 jss59 jss63 jss50 jss65 jss66 jss52"
+        data-shrink={true}
+      >
+        ID
+        <span
+          aria-hidden={true}
+          className="jss67 jss53"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="jss83 jss68 jss86 jss71 jss84"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoComplete="off"
+          autoFocus={false}
+          className="jss94 jss78 jss86 jss71"
+          defaultValue="employee-FAKE-ID1"
+          disabled={true}
+          name="id"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="jss101 jss77"
+        >
+          <legend
+            className="jss103 jss104"
+          >
+            <span>
+              ID
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss44 jss43 jss4"
+    >
+      <label
+        className="jss60 jss48 jss54 jss57 jss56 jss59 jss65 jss66 jss52"
+        data-shrink={true}
+      >
+        Nome
+        <span
+          aria-hidden={true}
+          className="jss67 jss53"
+        >
+           
+          *
+        </span>
+      </label>
+      <div
+        className="jss83 jss68 jss84"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoComplete="off"
+          autoFocus={false}
+          className="jss94 jss78"
+          data-testid="name"
+          defaultValue="Employee name 1"
+          disabled={false}
+          name="name"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="jss101 jss77"
+        >
+          <legend
+            className="jss103 jss104"
+          >
+            <span>
+              Nome
+               *
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <div
+      className="jss5"
+    >
+      <button
+        className="jss134 jss105 jss113 jss114"
+        data-testid="submit-button"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="jss106"
+        >
+          Applica modifiche
+        </span>
+      </button>
+      <button
+        className="jss134 jss105 jss113 jss114"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="jss106"
+        >
+          Annulla
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;
